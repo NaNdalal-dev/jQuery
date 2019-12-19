@@ -1,0 +1,84 @@
+<!-- calculator Project -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calc_layout.css">
+</link>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+
+<script>
+$(function(){
+$("#cal1").addClass("input")
+$("button").addClass("button")
+$("div").addClass("div")
+
+})
+</script>
+<script>
+function cal(x)
+{
+var e,i;
+if(x===1)
+{
+e=x+=$("#b1").val()
+$("#cal1").val(e)
+}
+else if(x===2)
+{
+
+e=$("#b2").val()
+$("#cal1").val(e)
+}
+else if(x===3)
+alert($("#b3").val())
+else if(x==='+')
+alert($("#bp").val())
+
+}
+</script>
+</head>
+<body>
+<div>
+<label>
+<input id="cal1" type="text" value="text"/><br>
+<button id="b1"  value="1" onclick="cal(1)">1
+</button>
+<button id="b2"  value="2" onclick="cal(2)">2
+</button>
+<button id="b3"  value="3" onclick="cal(3)">3
+</button>
+<button id="bp"  value="+" onclick="cal('+')">+
+</button>
+<br>
+<button id="b4" type="button" value="4">4
+</button>
+<button id="b5" type="button" value="5">5
+</button>
+<button id="b6" type="button" value="6">6
+</button>
+<button id="bm" type="button" value="-">-
+</button>
+<br>
+<button id="b7" type="button" value="7">7
+</button>
+<button id="b8" type="button" value="8">8
+</button>
+<button id="b9" type="button" value="9">9
+</button>
+<button id="bx" type="button" value="*">x
+</button>
+<br>
+<button id="bd" type="button" value=".">.
+</button>
+<button id="bz" type="button" value="0">0
+</button>
+<button id="be" type="button" value="=">=
+</button>
+<button id="bdv" type="button" value="/">/
+</button>
+</label>
+</div>
+</body>
+</html>

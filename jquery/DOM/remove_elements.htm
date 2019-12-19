@@ -1,0 +1,31 @@
+<!-- Program to remove elements-->
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>removing elements</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+function remove1(){
+$(function(){
+var e=$("#i1").val()
+
+$(e).remove()
+
+})}
+</script>
+</head>
+
+<body>
+
+Enter the element you want to remove:<br/><input id=i1 type="text">
+<input id="b1" type="button" onclick="remove1()" value="remove"/> 
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+</body>
+</html>

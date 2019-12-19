@@ -1,0 +1,31 @@
+<!--Parents node demo-->
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Parent node demo</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+$(function(){
+
+var e=$("#ul1").parents()
+e.css("border","1px solid red")//adds border to the parent node
+})
+</script>
+</head>
+
+<ol>
+<li id="li1">Grand parent list<br/><br/>
+<ul id="ul1">
+<li>parent list1<br/><br/></li>
+
+<li id="cl1">parent list2<br/><br/></li>
+<ul>
+<li >Child list1<br/><br/></li>
+</ul>
+
+</ul>
+</li>
+</ol>
+</html>

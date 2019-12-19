@@ -1,0 +1,39 @@
+<!-- jQuery program to perform toggleclass method -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>toggleclass in CSS</title>
+<link rel="stylesheet" href="headingStyle.css">
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+
+$(function(){
+$("#b1").click(function()
+
+{
+$("#img1").toggleClass("border");
+$("h3").toggleClass("header");
+$("#img2").toggleClass("border");
+$("#img3").toggleClass("border");
+$("#div1").addClass("pets");
+$("#d").addClass("down");
+$("#b1").toggleClass("button1");
+
+})
+
+})
+
+</script>
+</head>
+
+
+<body>
+<div id="div1">
+<img id="img1" src="cat1.jpeg" >
+<img id="img2" src="dog1.jpeg" >
+<img id="img3" src="rabbit1.jpeg" >
+<button id="b1"><h3>toggle it</h3></button><br>
+</div>
+</body>
+</html>

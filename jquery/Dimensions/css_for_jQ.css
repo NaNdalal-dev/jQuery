@@ -1,0 +1,27 @@
+.d1
+{
+height:100;
+width:100;
+border-width:10px;
+border-style:dotted;
+background-image:url("dog1.jpeg");
+background-repeat: repeat-y;
+padding-left:10px;
+padding-top:125px;
+padding-bottom:125px;
+padding-right:10px;
+margin:100px;
+
+/*padding-top:10px
+padding-bottom:10px;
+padding-left:100px;
+margin-top:50px;
+margin-left:100px;
+margin-right:100px;
+padding:120px;
+border:20px;
+border-radius:50px;
+background-color:#fffb05;
+*/
+
+}

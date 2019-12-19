@@ -1,0 +1,33 @@
+<!-- Program to empty the content-->
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>empty content</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+function emp(){
+$(function(){
+var e=$("#i1").val()
+
+$(e).empty()
+
+})}
+</script>
+</head>
+
+<body>
+
+Enter the element you want to remove:<br/><input id=i1 type="text">
+<input id="b1" type="button" onclick="emp()" value="remove"/> 
+<div>div
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+</div>
+</body>
+</html>

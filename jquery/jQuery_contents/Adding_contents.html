@@ -1,0 +1,26 @@
+<!-- Prgram to demonstrate contents in jQuery-->
+<html>
+<head>
+<title>Adding contents</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+$(function(){
+	$("h2").before("hello friends")
+	//adds statement before the element
+
+	$("h2").append(" !");
+	//appends statement next to the element
+
+	$("h2").prepend("Good ")	
+	//prepends statement before the element 
+
+	$("h2").after("<h1>chai pilo</h1>")
+	//adds statement after the element 
+})
+</script>
+<body>
+<h2 id="h2">evening</h2>
+</body>
+</html>
+
