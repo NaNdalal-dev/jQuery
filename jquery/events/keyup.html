@@ -1,0 +1,30 @@
+<!--keyup program-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>keyup</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+
+$(function(){
+$("#in1").keyup(function(){
+$("#d1").text($("#in1").val())
+})
+})
+</script>
+</head>
+
+<body>
+<h2>TYPE HERE : 👇️</h2>
+<input id="in1" type="text"/>
+<br><br>
+<h2>YOU ARE TYPING : 👇️</h2>
+<textarea id="d1" rows=10 columns=10>
+
+
+</textarea>
+<br><br>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!--Keydown event-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>keydown</title>
+<script src="/home/adminsys/Documents/web_dev/Javascript/jquery/jQuery_contents/jquery1.js">
+</script>
+<script>
+$(function(){
+$("#in1").keydown(function(){
+$("#d1").text($("#in1").val());
+})
+})
+</script>
+</head>
+
+<div id="d1">
+</div>
+<br><br>
+<input id="in1" type="text" value="hello"/>
+
+
+</html>
